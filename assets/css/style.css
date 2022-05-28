@@ -53,9 +53,12 @@ nav > a{
 .button {
     background-color: green;
     color: white;
+    z-index: 1;
     text-align: center;
+    display: block;
     width: 150px;
     height: 50px;
+    line-height: 50px;
     border-radius: 50px;
     margin-top: 25px;
 }
@@ -82,11 +85,34 @@ nav > a{
     background: url(../images/personal-fitness-trainer.jpg) no-repeat center center rgba(0, 0, 0, 0.6);
     color: aliceblue;
     margin-top: 100px;
+    padding: 50px;
+}
+
+#special-offer {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 33%;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+}
+#special-offer h2{
+    font-size: 300%;
+    padding-bottom: 30px;
+}
+
+#special-offer p{
+    text-align: center;
+}
+
+.why-us {
+    width: 20%;
+    display: inline-block;
 }
 
 footer {
     height: 150px;
     width: 100%;
+    padding-top: 20px;
 }
 
 .footer-content {
