@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline black;
+}
+
+li a:active{
+    color: red;
+    text-decoration: underline red;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    background-color: aquamarine;
+    width: 100%; 
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    top: 0
+}
+
+nav > a{
+    float: right;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background-color: orangered;
+}
+
+#logo {
+    clear: both;
+    float: left;
+    font-size: 200%;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+
+#menu li {
+    float: left;
+    margin-right: 75px;
+    list-style: none;
+}
+
+#motivation {
+    background: url(../images/personal-fitness-trainer.jpg) no-repeat center center rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+}
+
+.footer-content {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    border-left: 5px black solid;
+    box-sizing:border-box;
+}
+
+#social-media i {
+    font-size: 25px;
+
+}
+
+#social-media li {
+    display: inline;
+    margin: 0 auto;
+    word-spacing: 25px;
+}
