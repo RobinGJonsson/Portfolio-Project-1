@@ -7,6 +7,7 @@
 }
 
 body {
+    background: url(../images/personal-fitness-trainer.jpg) no-repeat center center;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
@@ -81,19 +82,13 @@ nav > a{
     list-style: none;
 }
 
-#motivation {
-    background: url(../images/personal-fitness-trainer.jpg) no-repeat center center rgba(0, 0, 0, 0.6);
-    color: aliceblue;
-    margin-top: 100px;
-    padding: 50px;
-}
-
 #special-offer {
     background-color: rgba(0, 0, 0, 0.6);
+    color: white;
     width: 33%;
     border-radius: 10px;
-    margin: 50px;
-    padding: 30px;
+    margin: 300px 0px 200px 100px;
+    padding: 50px;
 }
 #special-offer h2{
     font-size: 300%;
@@ -104,12 +99,51 @@ nav > a{
     text-align: center;
 }
 
+#motivation {
+    background: rgba(255, 255, 255, 0.6);
+    overflow: auto;
+    color: black;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+#motivation > p {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .why-us {
     width: 20%;
     display: inline-block;
+    margin: 50px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#why-us-container{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.train-with-us {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+#spinning-class {
+    float: left;
+}
+
+#workout-class {
+    float: left;
 }
 
 footer {
+    clear: both;
+    background-color: aquamarine;
     height: 150px;
     width: 100%;
     padding-top: 20px;
