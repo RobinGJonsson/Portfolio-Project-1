@@ -39,13 +39,12 @@ ul {
 nav {
     background-color: aquamarine;
     width: 100%; 
-    height: 100px;
     line-height: 100px;
     position: fixed;
     top: 0
 }
 
-nav > a{
+nav #signup{
     float: right;
     margin-right: 20px;
     line-height: 50px;
@@ -69,7 +68,6 @@ nav > a{
 }
 
 #logo {
-    clear: both;
     float: left;
     font-size: 200%;
     margin-left: 20px;
@@ -113,30 +111,37 @@ nav > a{
     margin: 0 auto;
 }
 
-.why-us {
-    width: 20%;
-    display: inline-block;
-    margin: 50px;
-    vertical-align: top;
-    text-align: center;
-}
-
 #why-us-container{
     width: 100%;
     text-align: center;
     margin: 0 auto;
 }
 
+.why-us {
+    width: 20%;
+    display: inline-block;
+    margin: 50px;
+    vertical-align: top;
+}
+
+.why-us i {
+    font-size: 400%;
+}
+
 .train-with-us {
-    height: 600px;
+    height: 500px;
     width: 100%;
-    background-color: blue;
+    background-color:rgb(158, 158, 158);
+}
+
+.train-with-us h2 {
+    font-size: 200%;
+    padding-bottom: 20px;
 }
 
 .image-container img {
-    width: 600px;
-    height: auto;
-
+    width: auto;
+    height: 400px;
 }
 
 .right {
@@ -147,12 +152,23 @@ nav > a{
     float: left;
 }
 
-#spinning-class {
+#spinning-class .text-content{
     float: left;
 }
 
-#workout-class {
+#workout-class .text-content{
     float: right;
+}
+
+.train-with-us div{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.train-with-us .text-content {
+    padding: 75px;
 }
 
 footer {
