@@ -7,7 +7,6 @@
 }
 
 body {
-    background: url(../images/personal-fitness-trainer.jpg) no-repeat center center;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
@@ -98,7 +97,8 @@ nav #signup{
 }
 
 #motivation {
-    background: rgba(255, 255, 255, 0.6);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), 
+    url(../images/personal-fitness-trainer.jpg) no-repeat cover;
     overflow: auto;
     color: black;
     margin-top: 100px;
