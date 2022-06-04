@@ -7,14 +7,10 @@
 }
 
 body {
-    position: relative;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
 
-header {
-    display: block;
-}
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -40,9 +36,9 @@ ul {
     list-style: none;
 }
 
-nav {
+.navbar {
+    overflow: hidden;
     display: block;
-    position: absolute;
     background-color: aquamarine;
     width: 100%; 
     line-height: 100px;
@@ -50,7 +46,7 @@ nav {
     top: 0
 }
 
-nav #signup{
+.navbar #signup{
     float: right;
     margin-right: 20px;
     line-height: 50px;
@@ -111,7 +107,6 @@ nav #signup{
     background-position: center center;
     overflow: auto;
     color: black;
-    margin-top: 100px;
     padding: 50px;
 }
 
@@ -215,4 +210,8 @@ footer {
     display: inline;
     margin: 0 auto;
     word-spacing: 25px;
+}
+
+form {
+    margin-top: 100px;
 }
