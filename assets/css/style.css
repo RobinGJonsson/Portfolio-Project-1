@@ -213,5 +213,14 @@ footer {
 }
 
 form {
-    margin-top: 100px;
+    background-image:
+    linear-gradient(to bottom, rgba(158, 158, 158, 0), rgba(200, 200, 200, 1)),
+    url(../images/sign-up.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px 50px 50px;
+}
+
+input {
+    outline-style: solid;
 }
