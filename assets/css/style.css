@@ -108,6 +108,7 @@ ul {
     overflow: auto;
     color: black;
     padding: 50px;
+    margin-bottom: -1px;
 }
 
 #motivation > p {
@@ -203,7 +204,6 @@ footer {
 
 #social-media i {
     font-size: 25px;
-
 }
 
 #social-media li {
@@ -212,17 +212,54 @@ footer {
     word-spacing: 25px;
 }
 
-form {
+form input {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+#form-container {
+    width: 100%;
     background-image:
     linear-gradient(to bottom, rgba(158, 158, 158, 0), rgba(200, 200, 200, 1)),
     url(../images/sign-up.jpg);    
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 0px 50px 50px;
+    margin-top: 100px;
 }
 
-input {
-    outline-style: solid;
+#form-container > div {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.clearfix:after{
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+
+#sign-up-form {
+    background-color: green;
+    width: 50%;
+    float: right;
+}
+
+#sign-up-text {
+    background-color: blue;
+    width: 50%;
+    float: left;
+}
+
+#sign-up-form input {
+    border-radius: 5px;
 }
 
 #services {
@@ -236,6 +273,7 @@ input {
 .workout-type {
     display: inline-block;
     padding-top: 50px;
+    padding-right: 20px;
     width: 35%;
     height: 400px;
     box-sizing: border-box;

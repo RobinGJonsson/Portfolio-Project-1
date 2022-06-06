@@ -30,33 +30,42 @@
             <a id="signup" class="button" href="signup.html">Sign Up</a>
         </nav>
     </header>
-    <form action="/action_page.php" method="POST">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
+    <div id="form-container">
+        <div class="clearfix">
+            <div id="sign-up-text">
+                <h2>This is a header</h2> 
+            </div>
+            <div id="sign-up-form">
+                <form action="/action_page.php" method="POST">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your First Name"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Your Last Name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
 
-        <label for="type-of-coaching">What is Your Goal</label><br>
-        <select name="type-of-coaching" id="type-of-coaching">
-            <option value="loose-weight">Loose Weight</option>
-            <option value="gain-weight">Gain Weight</option>
-            <option value="gain-strength">Gain Strength</option>
-            <option value="cardio">Improve Cardio</option>
-        </select><br>
+                    <label for="type-of-coaching">What is Your Goal</label><br>
+                    <select name="type-of-coaching" id="type-of-coaching">
+                        <option value="loose-weight">Loose Weight</option>
+                        <option value="gain-weight">Gain Weight</option>
+                        <option value="gain-strength">Gain Strength</option>
+                        <option value="cardio">Improve Cardio</option>
+                    </select><br>
 
-        <label for="sdate">Starting Date:</label><br>
-        <input type="date" id="sdate" name="sdate"><br><br>
+                    <label for="sdate">Starting Date:</label><br>
+                    <input type="date" id="sdate" name="sdate"><br>
 
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
 
-        <input type="submit" value="Submit">
-    </form>
+                    <input class="button" type="submit" value="Join Now">
+                </form>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="footer-content" id="polices">
             <h2>Policies</h2>
