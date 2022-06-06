@@ -224,3 +224,28 @@ form {
 input {
     outline-style: solid;
 }
+
+#services {
+    background-color: rgb(200, 200, 200);
+    width: 100%; 
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.workout-type {
+    display: inline-block;
+    padding-top: 50px;
+    width: 35%;
+    height: 400px;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-bottom: 75px;
+}
+
+.workout-type img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
