@@ -11,6 +11,16 @@ body {
     font-weight: 600;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+/*headings and logo*/
 
 h1, h2 {
     font-family: Oswald, sans-serif;
@@ -18,9 +28,32 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+header {
+    background-color: aquamarine;
+    width: 100%; 
+    height: 15vh;
+    line-height: 15vh;
+    position: fixed;
+    top: 0
+}
+
+
+/*Menu items styling for navbar*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu li {
+    float: left;
+    margin-right: 75px;
 }
 
 li a:hover {
@@ -32,26 +65,17 @@ li a:active{
     text-decoration: underline red;
 }
 
-ul {
-    list-style: none;
+.active {
+    text-decoration: underline black;
 }
 
-.navbar {
-    overflow: hidden;
-    display: block;
-    background-color: aquamarine;
-    width: 100%; 
-    line-height: 100px;
-    position: fixed;
-    top: 0
-}
-
+/*Sign up anchor in navbar*/
 .navbar #signup{
     float: right;
     margin-right: 20px;
-    line-height: 50px;
 }
 
+/*Universal button style*/
 .button {
     background-color: green;
     color: white;
@@ -67,19 +91,6 @@ ul {
 
 .button:hover{
     background-color: orangered;
-}
-
-#logo {
-    float: left;
-    font-size: 200%;
-    margin-left: 20px;
-    margin-right: 150px;
-}
-
-#menu li {
-    float: left;
-    margin-right: 75px;
-    list-style: none;
 }
 
 #special-offer {
@@ -99,13 +110,14 @@ ul {
     text-align: center;
 }
 
+/*background and font color for motivation section*/
 #motivation {
     background-image:
     linear-gradient(to bottom, rgba(158, 158, 158, 0), rgba(200, 200, 200, 1)),
     url(../images/personal-fitness-trainer.jpg);
     background-size: cover;
     background-position: center center;
-    overflow: auto;
+    overflow: hidden;
     color: black;
     padding: 50px;
     margin-bottom: -1px;
@@ -189,7 +201,7 @@ footer {
     bottom: 0;
     clear: both;
     background-color: aquamarine;
-    height: 150px;
+    height: 20vh;
     width: 100%;
     padding-top: 20px;
 }
@@ -263,6 +275,7 @@ form input {
 }
 
 #services {
+    display: block;
     background-color: rgb(200, 200, 200);
     width: 100%; 
     margin: 0 auto;
@@ -277,7 +290,6 @@ form input {
     width: 35%;
     height: 400px;
     box-sizing: border-box;
-    vertical-align: top;
     margin-bottom: 75px;
 }
 
