@@ -198,6 +198,7 @@ li a:active{
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 #video {
@@ -337,6 +338,12 @@ form input {
         float: left;
     }
 
+    #special-offer {
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     #why-us-container {
         width: 60%
     }
@@ -344,26 +351,28 @@ form input {
     .why-us {
         width: 100%;
         clear: both;
-        float: left;
         margin: auto;
         margin-top: 50px;
     }
 
-    .train-with-us {
-        position: relative;
+    .train-with-us div {
+        clear: both;
+        width: 100%;
+        padding: 20px 50px;
     }
 
     .text-content, .image-container {
-        width: 90%;
-        clear: both;
-        float: left;
+        margin: 0 auto;
+    }
+
+    .workout-type {
+        width: 80%;
         margin: auto;
+        margin-top: 50px;
     }
 
-    .image-container {
-    }
-
-    .text-content {
+    .row {
+        padding: 0;
     }
 }
 
