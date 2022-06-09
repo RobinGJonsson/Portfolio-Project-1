@@ -240,6 +240,7 @@ li a:active{
 
 footer {
     clear: both;
+    position: relative;
     background-color: aquamarine;
     height: 20vh;
     width: 100%;
@@ -268,15 +269,9 @@ footer {
     word-spacing: 25px;
 }
 
-form input {
-    width: 50%;
-    height: 30px;
-    margin-bottom: 20px;
-    padding-left: 10px;
-}
-
-#form-container {
+#sign-up-page-bg {
     width: 100%;
+    height: 100%;
     background-image:
     linear-gradient(to bottom, rgba(158, 158, 158, 0), rgba(200, 200, 200, 1)),
     url(../images/sign-up.jpg);    
@@ -284,33 +279,61 @@ form input {
     background-size: cover;
 }
 
-#form-container > div {
+#form-container {
+    display: flex;
+    width: 60%;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    width: 50%;
-    border-radius: 10px;
-    margin: 0 auto;
     padding: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#sign-up-form {
-    background-color: green;
+form h1 {
+    font-size: 150%;
+    margin: 20px;
+}
+
+#sign-up-form  {
+    display: inline-block;
     width: 50%;
-    float: right;
+    height: 100%;
+    margin: 0 auto;
 }
 
 #sign-up-text {
-    background-color: blue;
+    display: inline-block;
     width: 50%;
-    float: left;
+    height: 100%;
+    margin: 0 auto;
 }
 
-#sign-up-form input {
+.input-field {
+    text-align: left;
+}
+
+input[type=text], 
+input[type=email],
+input[type=password],
+input[type=date] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
     border-radius: 5px;
 }
 
+.radio-field {
+    margin: 10px 0
+}
+
+.radio {
+    margin-right: 50px;
+}
+
+
+
 /*Media Queires*/
-/*Larger screens*/
+/*Medium screens*/
 @media screen and (max-width: 1150px ){
     #logo {
         margin-right: 8%;
@@ -326,7 +349,7 @@ form input {
     
 }
 
-/*Medium screens*/
+/*Small screens*/
 @media screen and (max-width: 900px ){
     header {
         height: 200px;
@@ -376,7 +399,3 @@ form input {
     }
 }
 
-/*Small screens*/
-@media screen and (max-width: 1150px ){
-    
-}
