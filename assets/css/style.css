@@ -166,10 +166,14 @@ li a:active{
 
 /*Train with us class and its images*/
 
+
+.train-with-us-bg {
+    background-color:rgb(200, 200, 200);
+}
+
 .train-with-us {
     height: 500px;
     width: 100%;
-    background-color:rgb(200, 200, 200);
 }
 
 .train-with-us h2 {
@@ -201,11 +205,20 @@ li a:active{
     object-fit: cover;
 }
 
-#video {
+#video-container {
     background-color:rgb(200, 200, 200);
     width: 100%;
-    padding-bottom: 100px;
+    height: 300px;
     text-align: center;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+video {
+    width: auto;
+    height: 100%;
+    vertical-align: 50%;
+    margin: 0 auto;
 }
 
 /*Workout Page*/
@@ -371,8 +384,7 @@ hr {
 
     .radio-field {
         display: block;
-    }
-    
+    } 
 }
 
 /*Small screens*/
@@ -404,8 +416,11 @@ hr {
         margin-top: 50px;
     }
 
-    .train-with-us div {
+    .train-with-us {
         clear: both;
+    }
+
+    .train-with-us div {
         width: 100%;
         padding: 20px 50px;
     }
@@ -422,6 +437,16 @@ hr {
 
     .row {
         padding: 0;
+    }
+
+    #motivation > p {
+        width: 100%;
+        text-align: left;
+        margin: 5px;
+    }
+
+    #video-container  {
+        clear: both;
     }
 }
 
