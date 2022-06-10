@@ -118,13 +118,21 @@ li a:active{
     padding: 50px;
 }
 
-#special-offer h2{
+#special-offer h1{
     font-size: 300%;
     padding-bottom: 30px;
 }
 
 #special-offer p{
     text-align: center;
+}
+
+.div-paragraph {
+    background-color: rgba(200, 200, 200, 1);
+    width: 80%;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
 }
 
 /*background and font color for motivation section*/
@@ -210,13 +218,13 @@ li a:active{
     width: 100%;
     height: 300px;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     margin: 0 auto;
 }
 
 video {
-    width: auto;
-    height: 100%;
+    width: 60%;
+    height: auto;
     vertical-align: 50%;
     margin: 0 auto;
 }
@@ -400,9 +408,19 @@ hr {
     }
 
     #special-offer {
+        width: 50%;
+        height: auto;
         margin: auto;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+    #special-offer h1 {
+        font-size: 200%;
+    }
+
+    #special-offer p {
+        font-size: 90%;
     }
 
     #why-us-container {
@@ -447,6 +465,27 @@ hr {
 
     #video-container  {
         clear: both;
+        padding-bottom: 50px;
+    }
+
+    video {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
     }
 }
 
+@media screen and (max-width: 600px) {
+    #special-offer h1 {
+        font-size: 150%;
+    }
+    
+    #special-offer .button {
+        width: 100px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 25px;
+        margin-top: 25px;
+    }
+}
