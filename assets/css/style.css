@@ -487,14 +487,16 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+    #logo {
+        font-size: 200%;
+    }
+
+    #navbar {
+        font-size: 90%;
+    }
 
     #navbar .button {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        height: 30px;
-        width: 100px;
-        line-height: 30px;
+        display: none;
     }
 
     #special-offer h1 {
