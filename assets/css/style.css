@@ -127,14 +127,6 @@ li a:active{
     text-align: center;
 }
 
-.div-paragraph {
-    background-color: rgba(200, 200, 200, 1);
-    width: 80%;
-    border-radius: 20px;
-    padding: 30px;
-    margin: 0 auto;
-}
-
 /*background and font color for motivation section*/
 #motivation {
     background-image:
@@ -144,13 +136,27 @@ li a:active{
     background-position: center center;
     overflow: hidden;
     color: black;
-    padding: 50px;
     margin-bottom: -1px;
     text-align: center;
 }
 
-#motivation > p {
-    width: 60%;
+#general-info {
+    background-color: rgba(200, 200, 200, 1);
+    padding: 20px;
+    height: auto;
+    line-height: 30px;
+}
+
+#general-info h1 {
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+#general-info > p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 /*Why us */
@@ -366,7 +372,7 @@ form .button {
 }
 
 hr {
-    width: 80%;
+    width: 100%;
     border: white solid;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -395,8 +401,14 @@ hr {
 
 /*Small screens*/
 @media screen and (max-width: 900px ){
-    header {
-        height: 200px;
+    header{
+        line-height: 50px;
+    }
+
+    #navbar .button {
+        position: absolute;
+        top: 0;
+        right: 20px;
     }
 
     #navbar {
@@ -476,16 +488,12 @@ hr {
 
 @media screen and (max-width: 600px) {
 
-    header{
-        height: 150px;
-        line-height: 75px;
-    }
-
     #navbar .button {
         position: absolute;
-        top: 45px;
-        right: 20px;
+        top: 10px;
+        right: 10px;
         height: 30px;
+        width: 100px;
         line-height: 30px;
     }
 
