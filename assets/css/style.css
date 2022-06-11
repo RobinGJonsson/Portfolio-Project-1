@@ -16,6 +16,14 @@ a {
     color: black;
 }
 
+p {
+    line-height: 27px;
+}
+
+i {
+    margin-bottom: 15px;
+}
+
 ul {
     list-style: none;
 }
