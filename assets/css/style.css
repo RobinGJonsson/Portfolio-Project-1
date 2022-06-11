@@ -146,12 +146,11 @@ li a:active{
     color: black;
     padding: 50px;
     margin-bottom: -1px;
+    text-align: center;
 }
 
 #motivation > p {
     width: 60%;
-    text-align: center;
-    margin: 0 auto;
 }
 
 /*Why us */
@@ -218,7 +217,7 @@ li a:active{
     width: 100%;
     height: 300px;
     text-align: center;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     margin: 0 auto;
 }
 
@@ -319,7 +318,6 @@ form h1 {
 }
 
 #sign-up-form  {
-    display: inline-block;
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -477,15 +475,57 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
+
+    header{
+        height: 150px;
+        line-height: 75px;
+    }
+
+    #navbar .button {
+        position: absolute;
+        top: 45px;
+        right: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+
     #special-offer h1 {
         font-size: 150%;
     }
     
-    #special-offer .button {
+    #special-offer #navbar {
         width: 100px;
         height: 25px;
         line-height: 25px;
         border-radius: 25px;
         margin-top: 25px;
     }
+
+    .train-with-us div {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .image-container img {
+        border-radius: 0px;
+    }
+
+    .workout-type {
+        width: 100%; 
+        padding: 0;
+    }
+
+    #form-container {
+        width: 50%;
+        padding: 50px 50px;
+    }
+
+    .why-us {
+        width: 150%;
+    }
+    
+    #why-us-container {
+        margin: 20px;
+    }
 }
+
