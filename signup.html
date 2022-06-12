@@ -26,10 +26,9 @@
                     <a href="workouts.html">Workouts</a>
                 </li>
                 <li>
-                    <a href="about-us.html">About Us</a>
+                    <a class="button" href="signup.html">Sign Up</a>
                 </li>
             </ul>
-            <a class="button right" href="signup.html">Sign Up</a>
         </nav>
     </header>
     <div id="sign-up-page-bg">
@@ -39,19 +38,19 @@
                 <hr>
                 <div class="input-field">
                     <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname" placeholder="Your First Name">
+                    <input type="text" id="fname" name="fname" placeholder="Your First Name" required>
                 </div>
                 <div class="input-field">
                     <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname" placeholder="Your Last Name">
+                    <input type="text" id="lname" name="lname" placeholder="Your Last Name" required>
                 <div class="input-field">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email Address">
+                    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
                 </div>
                 <div class="radio-field">
                     <div>
                         <label for="gender">Man</label>
-                        <input type="radio" class="radio" id="man" name="gender" value="Man">
+                        <input type="radio" class="radio" id="man" name="gender" value="Man" required>
                     </div>
                     <div>
                         <label for="gender">Woman</label>
@@ -64,7 +63,7 @@
                 </div>
                 <div class="input-field">
                     <label for="type-of-coaching">What is Your Goal</label><br>
-                    <select class="coaching" name="type-of-coaching" id="type-of-coaching">
+                    <select class="coaching" name="type-of-coaching" id="type-of-coaching" required>
                         <option value="loose-weight">Loose Weight</option>
                         <option value="gain-weight">Gain Weight</option>
                         <option value="gain-strength">Gain Strength</option>
@@ -73,61 +72,34 @@
                 </div>
                 <div class="input-field">
                     <label for="sdate">Starting Date:</label><br>
-                    <input type="date" id="sdate" name="sdate">
+                    <input type="date" id="sdate" name="sdate" required>
                 </div>
                 <div class="input-field">
-                    <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" placeholder="Choose a Password">
+                    <label for="password" >Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Choose a Password" required>
                 </div>
                 <input class="button" type="submit" value="Join Now">
             </form>
         </div>
     </div>
     <footer>
-        <div class="footer-content" id="polices">
-            <h2>Policies</h2>
-            <ul>
-                <li>
-                    <a href="#" rel="noopener">Discrimination</a>
-                </li>
-                <li>
-                    <a href="#" rel="noopener">Pricelist</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-content vertical-line" id="about-us">
-            <a href="about-us.html"><h2>About Us</h2></a>
-            <ul>
-                <li>
-                    <a href="#" rel="noopener" 
-                    aria-label="read our history">Our History</a>
-                </li>
-                <li>
-                    <a href="#" rel="noopener" 
-                    aria-label="work with us ">Work with us</a>
-                </li>
-            </ul>
-        </div>
-        <div class="footer-content vertical-line" id="social-media">
-            <h2>Follow Us</h2>
-            <ul>
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener" 
-                    aria-label="visit our Facebook page (opensin a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener" 
-                    aria-label="visit our twitter page (opensin a new tab)">
-                    <i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener" 
-                    aria-label="visit our instagram page (opensin a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-                </li>
-            </ul>
-        </div>
+        <ul id="social-media">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" 
+                aria-label="visit our Facebook page (opensin a new tab)">
+                <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" 
+                aria-label="visit our twitter page (opensin a new tab)">
+                <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" 
+                aria-label="visit our instagram page (opensin a new tab)">
+                <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer> 
 </body>
 </html>
