@@ -576,5 +576,9 @@ hr {
         font-size: 75%;
         top: 30px;
     }
+
+    #special-offer {
+        width: auto;
+    }
 }
 
