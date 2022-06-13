@@ -130,8 +130,8 @@ The live link can be found here - https://robingjonsson.github.io/Portfolio-Proj
 
 ### Content
 
-- Code snippet in the CSS file (.clearfix:after) was taken from...
-- The page where the Join now button on the Sign up page is taken from...
+- Code snippet in the CSS file (.clearfix:after) was taken from https://css-tricks.com/snippets/css/clear-fix/
+- The page where the Join now button on the Sign up page is taken from https://formdump.codeinstitute.net/
 - All icons on the page were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
