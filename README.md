@@ -52,5 +52,14 @@ My Coach is a site for people who want to improve their health and fitness but d
     - The footer will be the same on every page of the site and stays at the very bottom.
     - The footer contains links to twitter, facebook and instagram through the companies icons.
 
+### Features Left to Implement
+
+- Possibly add a Gallery page
+- Add more content to sections 
+- Add Contact page
+- Add about us 
+
+---
+
 
 
