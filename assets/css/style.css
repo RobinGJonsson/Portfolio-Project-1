@@ -130,7 +130,7 @@ li a:active{
     padding: 50px;
 }
 
-#special-offer h1{
+#special-offer h2{
     font-size: 300%;
     padding-bottom: 30px;
 }
@@ -167,7 +167,6 @@ li a:active{
     width: 70%;
     text-align: center;
     margin: 0 auto;
-
 }
 
 /*Why us */
@@ -428,7 +427,7 @@ hr {
         margin-bottom: 50px;
     }
 
-    #special-offer h1 {
+    #special-offer h2 {
         font-size: 200%;
     }
 
@@ -498,11 +497,7 @@ hr {
         font-size: 90%;
     }
 
-    #navbar .button {
-        display: none;
-    }
-
-    #special-offer h1 {
+    #special-offer h2 {
         font-size: 150%;
     }
     
@@ -514,19 +509,39 @@ hr {
         margin-top: 25px;
     }
 
+    #general-info > p {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
     .train-with-us div {
         width: 100%;
         padding: 20px 0px;
     }
 
+    .train-with-us h2 {
+        font-size: 150%;
+        text-align: center;
+    }
+
     .image-container img {
-        width: ;
+        width: 100%;
         border-radius: 0px;
     }
 
     .workout-type {
         width: 100%; 
         padding: 0;
+    }
+
+    .workout-type h2 {
+        padding-top: 15px;
+    }
+
+    .workout-type p {
+        padding: 15px;
     }
 
     .workout-type .button {
@@ -548,6 +563,18 @@ hr {
 
     #social-media li {
         word-spacing: 75px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #navbar .button {
+        position: static;
+        position: absolute;
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 75%;
+        top: 30px;
     }
 }
 
