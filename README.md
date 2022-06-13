@@ -136,12 +136,12 @@ The live link can be found here - https://robingjonsson.github.io/Portfolio-Proj
 
 ### Media
 
-- The icon used in the tab-title is taken from...
-- The home page background image is taken from
-- Spinning image is taken from...
-- The workout image is taken from...
-- The Sign up page background is taken from
-- The Loose Weight image is taken from
-- The Gain Weight image is taken from
-- The Get Stronger image is taken from
-- The Improve Cardio image is taken from
+- The icon used in the tab-title is taken from https://www.pngitem.com/middle/hwoxRh_gym-icon-hd-png-download/
+- The home page background image is taken from https://www.firstbeat.com/sv/blog-sv/god-fysisk-kondition-okar-ditt-valbefinnande-bade-det-uppmatta-och-sjalvupplevda/
+- Spinning image is taken from https://www.mensjournal.com/health-fitness/why-this-former-mlb-star-thinks-all-men-should-take-spin-class/
+- The workout image is taken from https://www.revistagq.com/cuidados/articulo/que-entrenamiento-es-mejor-segun-mi-tipo-de-personalidad-introvertido-extrovertido
+- The Sign up page background is taken from https://guiafitness.com/las-preguntas-que-todo-entrenador-personal-se-plantea-en-su-carrera.html 
+- The Loose Weight image is taken from https://www.womenshealthmag.com/es/fitness/a31701535/ejercicios-cardio-quemar-grasa-pareja-casa/
+- The Gain Weight image is taken from https://ctlamoraleja.es/crosstraining/
+- The Get Stronger image is taken from https://marsaude.pt/2020/09/08/crossfit-principais-lesoes/
+- The Improve Cardio image is taken from https://headtopics.com/ar/se-quema-grasa-corriendo-todo-lo-que-tenes-que-saber-24056526
