@@ -61,36 +61,45 @@ My Coach is a site for people who want to improve their health and fitness but d
 
 ---
 
-# Testing
-
+## Testing
 Here we'll go over each part of the site and explain how things should look and act
 
+### Features Testing
+
 -__The Logo__
+
     - The logo is a link to the home page and works from every page
 
 -__The Menu Items__
+
     - All menu items lead where they are intended and works the same on every page of the site.
 
 -__The Sign Up button__
+
     - This button works and leads to the Sign Up page no matter from what page it was clicked.
 
 -__The train with us section__
+
     - The content in this section each have their own Join button to join in on free guided online workouts.
     - The button should lead to a youtube video that corresponds to the content from where the button was clicked.
     - All buttons have been tested and they work as intended.
 
 -__The Video__
+
     - The video contains controls, is muted by default, is autoplaying and looping. 
 
 -__The Sign Up page__
+
     - All input area work as intended.
     - You can't submit the form unless all area are filled in.
 
 -__The Join Now button on Sign Up page__
+
     - This button works when all required fields are filled in
     - It leads to https://formdump.codeinstitute.net/ that shows the user what has been submited 
 
 -__The Footer__
+
     - The footer links opens in a different tab.
     - All links work the same on every page of the site. 
     - All links lead to their corresponding websites. 
