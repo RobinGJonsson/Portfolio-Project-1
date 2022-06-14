@@ -72,26 +72,26 @@ My Coach is a site for people who want to improve their health and fitness but d
     - Adjust .train-with-us .text-content
     - Change radio field to display block so that each option displays on their own line 
     <br>
-    <img src="assets/images/1150px-radio-bt.png" width=500 height=auto/>
+    - <img src="assets/images/1150px-radio-bt.png" width=500 height=auto/>
 
 - 900px
     - Change header line height to fit all the content on two different rows in the header 
     - Make logo font size smaller 
     - Move singup button in the header to the right
     <br> 
-    <img src="assets/images/900px-header.png" width=500 height=auto/>
+    - <img src="assets/images/900px-header.png" width=500 height=auto/>
     - Move special offer to horizontal center and make it 50% of screen width and make its content smaller 
     - Stack the why us content untop of eachother 
     <br>
-    <img src="assets/images/900px-why-us.png" width=500 height=auto/><br>
+    - <img src="assets/images/900px-why-us.png" width=500 height=auto/><br>
     - Change image height of train-with-us to auto 
     - Move train-with-us to center and stack on top of eachother 
     <br>
-    <img src="assets/images/900px-twu.png" width=500 height=auto/>
+    - <img src="assets/images/900px-twu.png" width=500 height=auto/>
     - Change width, padding and margin of content in the Goals page 
     - Stack content on Goals page on top of eachother
     <br>
-    <img src="assets/images/900px-goals.png" width=500 height=auto/><br>
+    - <img src="assets/images/900px-goals.png" width=500 height=auto/><br>
     - Change video size's max height and width 
  
  - 600px
@@ -100,7 +100,7 @@ My Coach is a site for people who want to improve their health and fitness but d
 - 450px
     - Make signup button in header smaller 
     <br>
-    <img src="assets/images/450px-header.png" width=500 height=auto/><br>
+    - <img src="assets/images/450px-header.png" width=500 height=auto/><br>
     - Change special offer width to auto 
 
 ### Features Left to Implement
