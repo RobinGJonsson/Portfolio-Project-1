@@ -304,7 +304,7 @@ footer {
     height: 100%;
     background-image:
     linear-gradient(to bottom, rgba(158, 158, 158, 0), rgba(200, 200, 200, 1)),
-    url(../images/sign-up.jpg);    
+    url(../images/sign-up-bg.jpg);    
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0;

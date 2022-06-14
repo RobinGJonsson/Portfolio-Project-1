@@ -17,11 +17,12 @@ My Coach is a site for people who want to improve their health and fitness but d
 
 ![Nav Bar](assets/images/header.png)
 
-
 - __Special offer__
 
     - The special offers area is an area that will contain special offers that the site has.
     - It will be edited to accomadate when new special offers appear on the site.
+
+![Special Offer](assets/images/special-offer.png)
 
 - __General info__
 
@@ -32,10 +33,14 @@ My Coach is a site for people who want to improve their health and fitness but d
     - The why us section will contaion text content that explains to the user what are the main policies.
     - At the moment it contains three text areas but there can be more added if so needed in the future.
 
+![Why Us](assets/images/why-us.png)
+
 - __Train with us section__
 
     - Contains text and a relevant image that explains about what type of workout it is about.
     - Clicking on the join button will take the user to a video that has a follow along workout.
+
+![Train With Us](assets/images/train-with-us.png)
 
 - __Video__
 
@@ -46,14 +51,20 @@ My Coach is a site for people who want to improve their health and fitness but d
     - The goals page intruduces the user to vaious common problems that people have with training, both people who have trained for a long time and people who are just beginning.
     - This page will help the user identify their own specific problem and help them feel like they're not alone with their specific problem and that it is fixable.
 
+![Goals Page](assets/images/goals-page.png)
+
 - __Sign up Page__
 
     - The sign up page will allow the user to sign up for personal coaching and advice through the site's personal trainers. All input areas are required as it is all important information to simplify the process of creating personal programs for the user.
+
+![Sign Up Page](assets/images/sign-up-page.png)
 
 - __The Footer__
 
     - The footer will be the same on every page of the site and stays at the very bottom.
     - The footer contains links to twitter, facebook and instagram through the companies icons.
+
+![Footer](assets/images/footer.png)
 
 ### Features Left to Implement
 
