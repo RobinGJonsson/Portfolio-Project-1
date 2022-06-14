@@ -81,48 +81,48 @@ Here we'll go over each part of the site and explain how things should look and 
 
 ### The Logo
 
-    - The logo is a link to the home page and works from every page
+- The logo is a link to the home page and works from every page
 
 ### The Menu Items
 
-    - All menu items lead where they are intended and works the same on every page of the site.
+- All menu items lead where they are intended and works the same on every page of the site.
 
 ### The Sign Up button
 
-    - This button works and leads to the Sign Up page no matter from what page it was clicked.
+- This button works and leads to the Sign Up page no matter from what page it was clicked.
 
 ### The Train With Us Section
 
-    - The content in this section each have their own Join button to join in on free guided online workouts.
-    - The button should lead to a youtube video that corresponds to the content from where the button was clicked.
-    - All buttons have been tested and they work as intended.
+- The content in this section each have their own Join button to join in on free guided online workouts.
+- The button should lead to a youtube video that corresponds to the content from where the button was clicked.
+- All buttons have been tested and they work as intended.
 
 ### The Video
 
-    - The video contains controls, is muted by default, is autoplaying and looping.
+- The video contains controls, is muted by default, is autoplaying and looping.
 
 ### The Sign Up page
 
-    - All input area work as intended.
-    - You can't submit the form unless all area are filled in.
+- All input area work as intended.
+- You can't submit the form unless all area are filled in.
 
 ### The Join Now Button on Sign Up Page
 
-    - This button works when all required fields are filled in
-    - It leads to https://formdump.codeinstitute.net/ that shows the user what has been submited
+- This button works when all required fields are filled in
+- It leads to https://formdump.codeinstitute.net/ that shows the user what has been submited
 
 ### The Footer
 
-    - The footer links opens in a different tab.
-    - All links work the same on every page of the site.
-    - All links lead to their corresponding websites.
+- The footer links opens in a different tab.
+- All links work the same on every page of the site.
+- All links lead to their corresponding websites.
 
 ## Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Bugs
 
@@ -130,10 +130,10 @@ Here we'll go over each part of the site and explain how things should look and 
 
 ## Deployment
 
-  - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://robingjonsson.github.io/Portfolio-Project-1.html
 
