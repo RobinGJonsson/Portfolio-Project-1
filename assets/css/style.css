@@ -217,8 +217,8 @@ li a:active{
 
 .image-container {
     width: 50%;
-    height: auto;
-    border-radius: 5px;
+    height: 400px;
+    border-radius: 5px;   
 }
 
 .image-container img {
@@ -457,6 +457,7 @@ hr {
 
     .text-content, .image-container {
         margin: 0 auto;
+        height: auto;
     }
 
     .workout-type {
@@ -501,14 +502,6 @@ hr {
         font-size: 150%;
     }
     
-    #special-offer #navbar {
-        width: 100px;
-        height: 25px;
-        line-height: 25px;
-        border-radius: 25px;
-        margin-top: 25px;
-    }
-
     #general-info > p {
         width: 100%;
         font-size: 16px;
