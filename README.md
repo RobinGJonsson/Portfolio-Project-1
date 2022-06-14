@@ -57,7 +57,7 @@ My Coach is a site for people who want to improve their health and fitness but d
 
     - The sign up page will allow the user to sign up for personal coaching and advice through the site's personal trainers. All input areas are required as it is all important information to simplify the process of creating personal programs for the user.
 
-![Sign Up Page](assets/images/sign-up-page.png)
+![Sign Up Page](assets/images/signup-page.png)
 
 - __The Footer__
 
