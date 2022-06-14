@@ -207,18 +207,18 @@ li a:active{
 .train-with-us div{
     width: 50%;
     display: inline-block;
-    vertical-align: middle;
     box-sizing: border-box;
 }
 
 .train-with-us .text-content {
-    padding: 75px;
+    padding: 0 75px;
 }
 
 .image-container {
     width: 50%;
-    height: 400px;
-    border-radius: 5px;   
+    height: 350px;
+    border-radius: 5px;  
+    vertical-align: middle; 
 }
 
 .image-container img {
@@ -381,6 +381,9 @@ hr {
     margin: 20px 0;
 }
 
+label {
+    font-size: 16px;
+}
 
 /*Media Queires*/
 /*Medium screens*/
@@ -390,7 +393,7 @@ hr {
     }
 
     .train-with-us .text-content {
-        padding: 3%;
+        padding: 0 3%;
     }
 
     .radio-field {
