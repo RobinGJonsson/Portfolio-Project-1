@@ -15,6 +15,9 @@ My Coach is a site for people who want to improve their health and fitness but d
     - The nav bar will take the user to all three pages of the site.
     - It will follow along on every page and while scrolling.
 
+![Nav Bar](assets/images/header.png)
+
+
 - __Special offer__
 
     - The special offers area is an area that will contain special offers that the site has.
