@@ -85,9 +85,9 @@ My Coach is a site for people who want to improve their health and fitness but d
     - Stack content on Goals page on top of eachother
     - Change video size's max height and width 
     <img src="assets/images/900px-header.png" width=500 height=auto/>
-    <img src="assets/images/900px-why-us.png" width=500 height=auto/><br>
+    <img src="assets/images/900px-why-us.png" width=500 height=auto/>
     <img src="assets/images/900px-twu.png" width=500 height=auto/>
-    <img src="assets/images/900px-goals.png" width=500 height=auto/><br>
+    <img src="assets/images/900px-goals.png" width=500 height=auto/>
 
  - 600px
     - Make logo, navbar, special offer h2 font size smaller 
@@ -95,7 +95,8 @@ My Coach is a site for people who want to improve their health and fitness but d
 - 450px
     - Make signup button in header smaller 
     - Change special offer width to auto 
-    <img src="assets/images/450px-header.png" width=500 height=auto/><br>
+    <br>
+    <img src="assets/images/450px-header.png" width=500 height=auto/>
 
 ### Features Left to Implement
 
