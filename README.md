@@ -42,7 +42,7 @@ My Coach is a site for people who want to improve their health and fitness but d
 
 - __Video__
 
-    - The video is at the bottom of the home page and shows a video that is ment to inspire people to start training
+    - The video is at the bottom of the home page and shows a video that is ment to inspire people to start training.
 
 - __Goals Page__
 
@@ -66,52 +66,52 @@ My Coach is a site for people who want to improve their health and fitness but d
 
 # Media Queries
 - 1150px
-    - Adjust marign of logo to fit everything
-    - Adjust .train-with-us .text-content
-    - Change radio field to display block so that each option displays on their own line 
+    - Adjust marign of logo to fit everything.
+    - Adjust .train-with-us .text-content.
+    - Change radio field to display block so that each option displays on their own line.
     <img src="assets/images/1150px-radio-bt.png" width=500 height=auto/>
 
 - 900px
-    - Change header line height to fit all the content on two different rows in the header 
-    - Make logo font size smaller 
-    - Move singup button in the header to the right
-    - Move special offer to horizontal center and make it 50% of screen width and make its content smaller 
-    - Stack the why us content untop of eachother 
-    - Change image height of train-with-us to auto 
-    - Move train-with-us to center and stack on top of eachother 
-    - Change width, padding and margin of content in the Goals page 
-    - Stack content on Goals page on top of eachother
-    - Change video size's max height and width 
+    - Change header line height to fit all the content on two different rows in the header. 
+    - Make logo font size smaller.
+    - Move singup button in the header to the right.
+    - Move special offer to horizontal center and make it 50% of screen width and make its content smaller.
+    - Stack the why us content untop of eachother. 
+    - Change image height of train-with-us to auto. 
+    - Move train-with-us to center and stack on top of eachother. 
+    - Change width, padding and margin of content in the Goals page. 
+    - Stack content on Goals page on top of eachother.
+    - Change video size's max height and width.
     <img src="assets/images/900px-header.png" width=500 height=auto/>
     <img src="assets/images/900px-why-us.png" width=500 height=auto/>
     <img src="assets/images/900px-twu.png" width=500 height=auto/>
     <img src="assets/images/900px-goals.png" width=500 height=auto/>
 
  - 600px
-    - Make logo, navbar, special offer h2 font size smaller 
+    - Make logo, navbar, special offer h2 font size smaller.
 
 - 450px
-    - Make signup button in header smaller 
-    - Change special offer width to auto 
+    - Make signup button in header smaller. 
+    - Change special offer width to auto.
     <br>
     <img src="assets/images/450px-header.png" width=500 height=auto/>
 
 ### Features Left to Implement
 
-- Possibly add a Gallery page
-- Add more content to sections
-- Add Contact page
-- Add about us
-- More styling to Sign up page
+- Possibly add a Gallery page.
+- Add more content to sections.
+- Add Contact page.
+- Add about us.
+- More styling to Sign up page.
 
 # Testing
-Here we'll go over each part of the site and explain how things should look and act
+Here we'll go over each part of the site and explain how things should look and act.
 
 ## Features Testing
 
 ### The Logo
 
-- The logo is a link to the home page and works from every page
+- The logo is a link to the home page and works from every page.
 
 ### The Menu Items
 
@@ -138,8 +138,8 @@ Here we'll go over each part of the site and explain how things should look and 
 
 ### The Join Now Button on Sign Up Page
 
-- This button works when all required fields are filled in
-- It leads to https://formdump.codeinstitute.net/ that shows the user what has been submited
+- This button works when all required fields are filled in.
+- It leads to https://formdump.codeinstitute.net/ that shows the user what has been submited.
 
 ### The Footer
 
@@ -156,13 +156,13 @@ Here we'll go over each part of the site and explain how things should look and 
 
 ### Bugs
 
-- There are no known bugs
+- There are no known bugs.
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
+- In the GitHub repository, navigate to the Settings tab.
+- From the source section drop-down menu, select the Master Branch.
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://robingjonsson.github.io/Portfolio-Project-1.html
