@@ -93,7 +93,7 @@ li a:hover:not(.button) {
     text-decoration: underline black;
 }
 
-li a:active{
+li a:active:not(.button){
     color: red;
     text-decoration: underline red;
 }
