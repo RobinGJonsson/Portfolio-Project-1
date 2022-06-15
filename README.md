@@ -155,8 +155,11 @@ Here we'll go over each part of the site and explain how things should look and 
     - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Bugs
-
 - There are no known bugs.
+
+### Solved Bugs
+- First when viewing the project through the git hub environments only the CSS images worked but not the HTML
+- This was because I had used ../ in the url's, removing this made it possible to see the images  
 
 ## Deployment
 
@@ -185,5 +188,5 @@ The live link can be found here - https://robingjonsson.github.io/my-coach/
 - The Sign up page background is taken from https://guiafitness.com/las-preguntas-que-todo-entrenador-personal-se-plantea-en-su-carrera.html 
 - The Loose Weight image is taken from https://www.womenshealthmag.com/es/fitness/a31701535/ejercicios-cardio-quemar-grasa-pareja-casa/
 - The Gain Weight image is taken from https://ctlamoraleja.es/crosstraining/
-- The Get Stronger image is taken from https://marsaude.pt/2020/09/08/crossfit-principais-lesoes/
+- The Get Stronger image is taken from https://www.pexels.com/photo/person-holding-barbell-841130/
 - The Improve Cardio image is taken from https://headtopics.com/ar/se-quema-grasa-corriendo-todo-lo-que-tenes-que-saber-24056526
