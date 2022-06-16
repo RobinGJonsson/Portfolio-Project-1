@@ -162,13 +162,22 @@ Here we'll go over each part of the site and explain how things should look and 
 - This was because I had used ../ in the url's, removing this made it possible to see the images  
 
 ## Deployment
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+I used push command in Gitpod to save changes into GitHub.
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab.
-- From the source section drop-down menu, select the Master Branch.
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+- The site was deployed to GitHub pages.
+- I logged into github
+- In the GitHub repository, I went to the Settings tab.
+- From there I clicked the Pages section and cliked the source drop down menu called Branch and selected main.
+- Once the master branch has been selected, the page will be automatically refreshed 
 
 The live link can be found here - https://robingjonsson.github.io/my-coach/
+
+To run localy:
+- Log in to GitHub and click on repository to download ([MP1](https://github.com/marcin-kli/MP1))
+- Select `Code` and click Download the ZIP file.
+- After download you can extract the file and use it in your local environment 
 
 
 ## Credits
