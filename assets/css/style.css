@@ -594,3 +594,8 @@ label {
     }
 }
 
+@media screen and (min-height: 1000px){
+    .form-container {
+        margin-bottom: 300px;
+    }
+}
