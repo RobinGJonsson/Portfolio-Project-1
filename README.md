@@ -175,7 +175,7 @@ I used push command in Gitpod to save changes into GitHub.
 The live link can be found here - https://robingjonsson.github.io/my-coach/
 
 To run localy:
-- Log in to GitHub and click on repository to download ([MP1](https://github.com/marcin-kli/MP1))
+- Log in to GitHub and click on repository to download
 - Select `Code` and click Download the ZIP file.
 - After download you can extract the file and use it in your local environment 
 
